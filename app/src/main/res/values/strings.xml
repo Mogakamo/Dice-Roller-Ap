@@ -1,5 +1,9 @@
 <resources>
     <string name="app_name">Dice Roller</string>
+<<<<<<< HEAD
     <string name="_1">1</string>
     <string name="roll">ROLL</string>
+=======
+    <string name="roll">Roll</string>
+>>>>>>> cdeb595f5ab26e83e823db66d6253bb2e68e7fc8
 </resources>

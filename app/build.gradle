@@ -2,6 +2,10 @@ plugins {
     id 'com.android.application'
     id 'kotlin-android'
 }
+<<<<<<< HEAD
+=======
+apply plugin: 'kotlin-android'
+>>>>>>> cdeb595f5ab26e83e823db66d6253bb2e68e7fc8
 
 android {
     compileSdk 30
@@ -9,7 +13,11 @@ android {
 
     defaultConfig {
         applicationId "com.example.diceroller"
+<<<<<<< HEAD
         minSdk 19
+=======
+        minSdk 21
+>>>>>>> cdeb595f5ab26e83e823db66d6253bb2e68e7fc8
         targetSdk 30
         versionCode 1
         versionName "1.0"
@@ -34,11 +42,21 @@ android {
 
 dependencies {
 
+<<<<<<< HEAD
     implementation 'androidx.core:core-ktx:1.5.0'
     implementation 'androidx.appcompat:appcompat:1.3.0'
+=======
+    implementation 'androidx.core:core-ktx:1.3.2'
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+>>>>>>> cdeb595f5ab26e83e823db66d6253bb2e68e7fc8
     implementation 'com.google.android.material:material:1.3.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+<<<<<<< HEAD
 }
+=======
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+}
+>>>>>>> cdeb595f5ab26e83e823db66d6253bb2e68e7fc8
